@@ -1,4 +1,4 @@
-package com.arquitecturajava.ejemplo003;
+package com.arquitecturajava.ejemplo004;
 
 public class Coctelera implements Girable {
 
