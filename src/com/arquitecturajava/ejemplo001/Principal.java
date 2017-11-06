@@ -6,11 +6,13 @@ public class Principal {
 		
 		Moto m = new Moto("Ducati");
 		Coche c = new Coche("Toyota");
-		Camion cm = new Camion("Scania");
+		Vehiculo cm = new Camion("Scania");
 		
 		acelerarVehiculo(m);
 		acelerarVehiculo(c);
 		acelerarVehiculo(cm);
+		
+		c.pagarImpuesto();
 
 	}
 	

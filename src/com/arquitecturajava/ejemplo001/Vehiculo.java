@@ -21,4 +21,8 @@ public abstract class Vehiculo {
 		this.marca = marca;
 	}
 
+	public void pagarImpuesto() {
+		System.out.println("impuesto pagado");
+	}
+
 }
