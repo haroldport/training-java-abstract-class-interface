@@ -6,4 +6,8 @@ public class Moto extends Vehiculo {
 		super(marca);
 	}
 	
+	public void acelerar() {
+		System.out.println("La moto acelera...");
+	}
+	
 }

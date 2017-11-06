@@ -6,4 +6,7 @@ public class Coche extends Vehiculo {
 		super(marca);
 	}
 	
+	public void acelerar() {
+		System.out.println("El coche acelera...");
+	}
 }

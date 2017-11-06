@@ -8,6 +8,10 @@ public abstract class Vehiculo {
 		super();
 		this.marca = marca;
 	}
+	
+	//todas las clases hijas lo deben implementar
+	//salvo que ellas tambien seas abstractas
+	public abstract void acelerar();
 
 	public String getMarca() {
 		return marca;
